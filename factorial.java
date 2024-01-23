@@ -14,3 +14,5 @@ public class factorial {
         System.out.println("Factorial of "+ n +" = " + calculateFactorial(n));
      }
 }
+
+// Time complexity & Space complexity = o(n)

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * fibonacci
+ * fibonacci series -- 0 1 1 2 3 5 8 ..
  */
 public class fibonacci {
    static int findFibonacci(int n){
@@ -10,7 +10,6 @@ public class fibonacci {
      }
       
      return findFibonacci(n-1)+findFibonacci(n-2);
-// 0 1 1 2 3 5 8
     
    }
     public static void main(String[] args) {
@@ -25,3 +24,6 @@ public class fibonacci {
      
     
 }
+
+// Time complexity  = o(2 to the power n)
+// Space complexity  = o(n)
