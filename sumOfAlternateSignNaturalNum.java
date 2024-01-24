@@ -20,4 +20,3 @@ public class sumOfAlternateSignNaturalNum {
         System.out.println(sum(n));
     }
 }
-// 1 -2 3 -4 5
